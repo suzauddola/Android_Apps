@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <TextView
+        android:id="@+id/firsttext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="24dp"
+        android:layout_marginTop="25dp"
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/secoundtext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/firsttext"
+        android:layout_alignBottom="@+id/firsttext"
+        android:layout_marginLeft="19dp"
+        android:layout_toRightOf="@+id/firsttext"
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/Thirdtext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/firsttext"
+        android:layout_below="@+id/firsttext"
+        android:layout_marginTop="43dp"
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/fourthtext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/Thirdtext"
+        android:layout_alignLeft="@+id/secoundtext"
+        android:text="TextView" />
+
+</RelativeLayout>

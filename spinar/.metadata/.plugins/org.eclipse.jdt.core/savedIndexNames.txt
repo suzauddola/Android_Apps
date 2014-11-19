@@ -1,0 +1,4 @@
+INDEX VERSION 1.126+E:\PERSONAL\Android\All APP\spinar\.metadata\.plugins\org.eclipse.jdt.core
+4188526009.index
+1527803992.index
+2713813551.index

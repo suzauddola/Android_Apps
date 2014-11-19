@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">AndroidSpinner</string>
+    <string name="hello_world">Hello world!</string>    
+    <string name="manue_settings">Settings</string>
+    
+    <string name="select">Chouse a country </string>
+    <string name="select2">Chose an item</string>
+    <string name="button_label">Submit</string>
+    
+    <string-array name="country_array">
+        <item>Bangladesh</item>
+        <item>Greece</item>
+        <item>India</item>
+        <item>Pakistan</item>
+        <item >United Kingdom</item>
+        <item >Germany</item>
+    </string-array>
+    
+</resources>

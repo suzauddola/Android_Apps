@@ -1,0 +1,31 @@
+package com.example.bandle;
+
+import android.app.Activity;
+import android.os.Bundle;
+import android.widget.TextView;
+
+public class show extends Activity {
+	
+	@Override
+	protected void onCreate(Bundle savedInstanceState) {
+		// TODO Auto-generated method stub
+		super.onCreate(savedInstanceState);
+		setContentView(R.layout.show);
+		Bundle b = getIntent().getExtras();
+		
+		
+		TextView tv = (TextView) findViewById(R.id.firsttext);
+		tv.setText(b.getString("name"));
+		
+		TextView et = (TextView) findViewById(R.id.secoundtext);
+		et.setText(b.getString("name1"));
+		
+		TextView tv1 = (TextView) findViewById(R.id.Thirdtext);
+		tv.setText(b.getString("id"));
+		
+		TextView et1 = (TextView) findViewById(R.id.fourthtext);
+		et.setText(b.getString("id1"));
+		
+	}
+
+}
